@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--name为 kpi  value为对应的sql赋值类-->
+<configuration>
+<property>
+<name>writer_new_user</name>
+<value>com.luyi.parser.modle.mr.nu.NewUserWritter</value>
+</property>
+    <property>
+        <name>writer_browser_new_user</name>
+        <value>com.luyi.parser.modle.mr.nu.NewUserWritter</value>
+    </property>
+
+    <property>
+        <name>writer_active_user</name>
+        <value>com.luyi.parser.modle.mr.activeUser.ActiveUserWritter</value>
+    </property>
+    <property>
+        <name>writer_browser_active_user</name>
+        <value>com.luyi.parser.modle.mr.activeUser.ActiveUserWritter</value>
+    </property>
+
+    <property>
+        <name>writer_active_member</name>
+        <value>com.luyi.parser.modle.mr.activemenber.ActiveMemberWritter</value>
+    </property>
+    <property>
+        <name>writer_browser_active_member</name>
+        <value>com.luyi.parser.modle.mr.activemenber.ActiveMemberWritter</value>
+    </property>
+
+    <property>
+        <name>writer_new_member</name>
+        <value>com.luyi.parser.modle.mr.newMember.NewMemberWritter</value>
+    </property>
+    <property>
+        <name>writer_browser_new_member</name>
+        <value>com.luyi.parser.modle.mr.newMember.NewMemberWritter</value>
+    </property>
+</configuration>
